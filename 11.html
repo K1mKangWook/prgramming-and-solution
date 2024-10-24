@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>프로그래밍과 문제해결</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id = "problem10">
+            <p style="font-size: 20px;"><strong>11번</strong></p>
+            <p>
+                (6주차과제) 아래 조건을 처리하는 암호처리프로그램이다.
+                <br>
+                두 개의 빈칸에 공통으로 들어갈 코드는 무엇인가?
+            </p>
+            <p style="color: white; background-color: red; width: 35px; text-align: center;">
+                <strong>조건</strong>
+            </p>
+                <ul style="list-style-type: none; padding-left: 10px;">
+                    <li>a. 사용자가 입력한 암호가 틀렸다면 '암호를 다시 임력하세요!'를 출력한 후 다시 암호를 물어본다.</li>
+                    <li>b. 암호가 맞으면 '로그인 됐습니다'를 출력한 후 종료한다.</li>
+                    <li>c. 시도횟수가 5회를 초과하면 '로그인 시도횟수 초가'를 출력하고 종료한다.</li>
+                </ul>
+                <br>
+            <p style="color: white; background-color: red; width: 35px; text-align: center;">
+                <strong>코딩</strong>
+            </p>
+            <p style="color: red; font-weight: bold; padding-left: 10px;">
+                password="inha1954"
+                <br>
+                count=1
+                <br>
+                while True:
+                <br>
+                &nbsp;&nbsp;&nbsp;if count > 5:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('로그인 시도횟수초과')
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                <br>
+                &nbsp;&nbsp;&nbsp;inputp=input("암호:")
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;if inputpw!=password:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("암호를 다시 임력하세요!")
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count=count+1
+                <br>
+                &nbsp;&nbsp;&nbsp;else:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('로그인됐습니다')
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
+                
+            </p>
+            <br>
+            <br>
+            <p>
+                답: <input type="text" style="width: 250px;">
+            </p>
+        </div>
+        <div id="next7">
+            <a href="10.html" >이전 문제</a>
+            <a href="12.html" >다음 문제</a>
+        </div>
+    </body>
+
+</html>

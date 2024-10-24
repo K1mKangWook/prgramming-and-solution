@@ -9,6 +9,22 @@ div.problem{
 div#problem1 {
     background-color: #D2F3F8;  
     width: 500px;
+    height:250px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem2 {
+    background-color: #D2F3F8;  
+    width: 500px;
+    height:260px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem3 {
+    background-color: #D2F3F8;  
+    width: 500px;
     height:260px;
     padding: 10px;
     border: 1px solid skyblue;
@@ -17,8 +33,9 @@ div#problem1 {
 div#problem4 {
     background-color: #D2F3F8;  
     width: 500px;
-    height: 300px;
+    height: 250px;
     padding: 10px;
+    padding-bottom: 50px;
     border: 1px solid skyblue;
 }
 
@@ -46,6 +63,95 @@ div#problem8 {
     border: 1px solid skyblue;
 }
 
+div#problem10 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:720px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem11 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height: 700px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem12 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:600px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem13 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:250px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem14 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:350px;
+    padding: 10px;
+    border: 1px solid skyblue;
+
+
+}
+
+div#problem15 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:350px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem16 {
+    background-color: #D2F3F8;  
+    width: 750px;
+    height:370px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem17 {
+    background-color: #D2F3F8;  
+    width: 700px;
+    height:250px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem18 {
+    background-color: #D2F3F8;  
+    width: 520px;
+    height:300px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem19 {
+    background-color: #D2F3F8;  
+    width: 500px;
+    height:400px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
+
+div#problem20 {
+    background-color: #D2F3F8;  
+    width: 920px;
+    height:520px;
+    padding: 10px;
+    border: 1px solid skyblue;
+}
 
 div.next {
     width:520px;
@@ -54,5 +160,30 @@ div.next {
 
 div#next7 {
     width:720px;
+    text-align: right;
+}
+
+div#next16{
+    width:770px;
+    text-align: right;
+}
+
+div#next20{
+    width: 940px;
+    text-align: right;
+}
+
+ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+div#next18{
+    width: 540px;
+    text-align: right;
+}
+
+div#next19 {
+    width: 520px;
     text-align: right;
 }

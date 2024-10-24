@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>프로그래밍과 문제해결</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id = "problem10">
+            <p style="font-size: 20px;"><strong>10번</strong></p>
+            <p>
+                (4주차과제) 사용자가 나이를 입력하면 조건에 따라 백신접종일을 출력하는 프로그램이다.
+                <br>
+                빈칸에 들어갈 코드는 무엇인가? (공백없이 입력할 것)
+            </p>
+            <p style="color: white; background-color: red; width: 35px; text-align: center;">
+                <strong>조건</strong>
+            </p>
+                <ul style="list-style-type: none;">
+                    <li>-65세 이상은 언제든 접종 가능</li>
+                    <li>-50~64세 : 4월22일</li>
+                    <li>-40세~49세 : 4월23일</li>
+                    <li>-30세~39세 : 4월24일</li>
+                    <li>-20~29세 : 4월25일</li>
+                    <li>-20세 미만 : 4월26일</li>
+                </ul>
+            <p style="color: white; background-color: red; width: 35px; text-align: center;">
+                <strong>코딩</strong>
+            </p>
+            <p>
+                age = int(input('만 나이를 입력하세요:'))
+                <br>
+                if(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;):
+                <br>
+                &nbsp;&nbsp;&nbsp;if age>=50:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('4월 22일에 접종 가능합니다.')
+                <br>
+                &nbsp;&nbsp;&nbsp;elif age>=40:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('4월 23일에 접종 가능합니다.')
+                <br>
+                &nbsp;&nbsp;&nbsp;elif age>=30:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('4월 24일에 접종 가능합니다.')
+                <br>
+                &nbsp;&nbsp;&nbsp;elif age>=20:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('4월 25일에 접종 가능합니다.')
+                <br>
+                &nbsp;&nbsp;&nbsp;else:
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('4월 26일에 접종 가능합니다.')
+                <br>
+                else:
+                <br>
+                &nbsp;&nbsp;&nbsp;print('언제든지 접종 가능합니다.')
+            </p>
+            <br>
+            <p>
+                답: <input type="text" style="width: 250px;">
+            </p>
+        </div>
+        <div id="next7">
+            <a href="9.html" >이전 문제</a>
+            <a href="11.html" >다음 문제</a>
+        </div>
+    </body>
+
+</html>
